@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/bjoernschilberg/routing/handler"
+	"github.com/bjoernschilberg/special-system/handler"
 )
 
 func main() {
