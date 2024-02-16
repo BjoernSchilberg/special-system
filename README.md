@@ -37,6 +37,26 @@ Go
 }
 ```
 
+Rust
+
+```shell
+cargo run
+```
+```text
+{	"transactions":			      803379,
+	"availability":			      100.00,
+	"elapsed_time":			       59.67,
+	"data_transferred":		        1.53,
+	"response_time":		        0.00,
+	"transaction_rate":		    13463.70,
+	"throughput":			        0.03,
+	"concurrency":			        9.43,
+	"successful_transactions":	      803379,
+	"failed_transactions":		           0,
+	"longest_transaction":		        0.02,
+	"shortest_transaction":		        0.00
+}
+```
 
 
 
@@ -58,3 +78,9 @@ in `test/test.py`
 	"shortest_transaction":		    0.00
 }
 ```
+
+Odin/Zig
+
+Odin and Zig do not have a direct standard library or widely used third-party
+libraries specifically for creating HTTP servers, as is the case in languages
+such as Rust with warp or Go with its net/http package.
